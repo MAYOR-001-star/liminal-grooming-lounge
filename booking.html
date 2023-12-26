@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./booking.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images and videos/liminal.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3498a286cb.js" crossorigin="anonymous"></script>
+    <title>LIMINAL GROOMING LOUNGE</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo">
+                <a href="./liminal.html">
+                    LIMINAL <br/><span>GROOMING LOUNGE</span>
+                </a>
+            </li>
+            <li class="toggleBar" onclick="responsiveNavbar()">
+                <i id="iconContainer" class="fa fa-bars" onclick="toggleIcon()"></i>
+            </li>
+            <li class="nav-link">
+                <a href="./services.html">SERVICES</a>
+            </li>
+            <li class="nav-link">
+                <a href="./booking.html">BOOKINGS</a>
+            </li>
+            <li class="nav-link">
+                <a href="./about.html">ABOUT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>BOOKINGS</h1>
+
+    <section>
+        <div class="timer">
+            <h2>DON JAZZY</h2>
+            <div>
+                <p>
+                    3:30<span>pm</span>
+                </p>
+                <p>
+                    4:30<span>pm</span>
+                </p>
+                <p>
+                    5:30<span>pm</span>
+                </p>
+            </div>
+            <div class="btn-container">
+                <a href="#form" class="btn btn-1">CHOOSE</a>
+            </div>
+        </div>
+        <div class="timer">
+            <h2>MIKE TYSON</h2>
+            <div>
+                <p>
+                    3:30<span>pm</span>
+                </p>
+                <p>
+                    4:30<span>pm</span>
+                </p>
+                <p>
+                    5:30<span>pm</span>
+                </p>
+            </div>
+            <div class="btn-container">
+                <a href="#form" class="btn btn-1">CHOOSE</a>
+            </div>
+        </div>
+        <div class="timer">
+            <h2>MAYORKUN</h2>
+            <div>
+                <p>
+                    3:30<span>pm</span>
+                </p>
+                <p>
+                    4:30<span>pm</span>
+                </p>
+                <p>
+                    5:30<span>pm</span>
+                </p>
+            </div>
+            <div class="btn-container">
+                <a href="#form" class="btn btn-1">CHOOSE</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="timer">
+            <h2>TUPAC SHAKUR</h2>
+            <div>
+                <p>
+                    3:30<span>pm</span>
+                </p>
+                <p>
+                    4:30<span>pm</span>
+                </p>
+                <p>
+                    5:30<span>pm</span>
+                </p>
+            </div>
+            <div class="btn-container">
+                <a href="#form" class="btn btn-1">CHOOSE</a>
+            </div>
+        </div>
+        <div class="timer">
+            <h2>DAVIDO ADELEKE</h2>
+            <div>
+                <p>
+                    3:30<span>pm</span>
+                </p>
+                <p>
+                    4:30<span>pm</span>
+                </p>
+                <p>
+                    5:30<span>pm</span>
+                </p>
+            </div>
+            <div class="btn-container">
+                <a href="#form" class="btn btn-1">CHOOSE</a>
+            </div>
+        </div>
+        <div class="timer">
+            <h2>OMAH LAY</h2>
+            <div>
+                <p>
+                    3:30<span>pm</span>
+                </p>
+                <p>
+                    4:30<span>pm</span>
+                </p>
+                <p>
+                    5:30<span>pm</span>
+                </p>
+            </div>
+            <div class="btn-container">
+                <a href="#form" class="btn btn-1">CHOOSE</a>
+            </div> 
+        </div>
+    </section>
+
+
+    <div class="scheldue">
+        <div class="location">
+           <p>LIMINAL GROOMING LOUNGE</p>
+           <p>NO.7 IKEJA, LAGOS STATE</p>
+           <p>IBADAN, OYO STATE</p>
+           <p>NIGERIA.</p>
+           <p>+234-913-723-9767</p>
+        </div>
+        <div class="working-content">
+            <h4>OPENING HOURS</h4>
+            <p>TUE 10AM - 7PM</p>
+            <p>WED 10AM - 7PM</p>
+            <p>THUR 10AM - 7PM</p>
+            <p>FRI 10AM - 6PM</p>
+            <p>SAT 10AM - 6PM</p>
+            <p>SUN 1PM - 7PM</p>
+        </div>
+    </div>
+
+    <h1>BOOK NOW</h1>
+
+    <div class="real-container">
+        <div class="form-container">
+            <form id="form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+    
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+    
+                <label for="time">Time:</label>
+                <input type="text" id="time" name="time" placeholder="time" required>
+
+                <label for="days">Choose a day:</label>
+                <select id="days" name="days" required>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select><br/>
+            </form>
+        </div>
+    </div>
+
+    <div class="btn-container">
+        <a href="#" class="btn btn-1">SUBMIT</a>
+    </div>
+
+    <footer>
+        <div class="footer-details">
+            <h5>Copyright 2024 <span>LIMINAL</span><br/>All rights reserved</h5>
+            <a href="#" class="privacy">Agreement and Privacy</a>
+        </div>
+        <div class="more-info">
+            <h4>LIMINAL</h4>
+            <a href="./about.html">About Us</a><br/>
+            <a href="#">Barbers</a><br/>
+            <a href="./booking.html" class="book-now">Book Now</a>
+        </div>
+        <div class="more-info">
+            <h4>LIMINAL</h4>
+            <a href="#">FAQs</a><br/>
+            <a href="#">Instagram</a><br/>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+    <script src="./booking.js"></script>
+</body>
+</html>
+
+
+
+
+
